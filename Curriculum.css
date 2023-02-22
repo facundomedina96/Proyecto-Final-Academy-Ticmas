@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contenedor-header{
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+    padding: 10px;
+}
+.logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #1CB698;
+    text-decoration: none;
+}
+nav a.nav-link{
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+}
+nav a:hover{
+    color:#1CB698;
+}
+.nav.responsive{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    background-color: #1e2326;
+    width: 180px;
+}
+.nav-responsive{
+    display: block;
+    background-color: #1CB698;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1));
+
+}
+.inicio .contenedor-inicio{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenedor-inicio .imagen{
+    margin-top: 40px;
+    border: 0px solid #1CB698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenedor-inicio h1{
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: 'Righteous';
+    color: whitesmoke;
+}
+.inicio .contenedor-inicio h2{
+    font-size: 15px;
+    font-weight: normal;
+    color: whitesmoke;
+}
+.inicio .contenedor-inicio .redes a{
+    color: whitesmoke;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenedor-inicio .redes a:hover{
+        background-color: #1CB698;
+}
+.sobremi{
+    background-color: #1e2326;
+    color: white;
+    padding: 50px 20px;
+}
+.sobremi .contenedor-infopersonal{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.sobremi .contenedor-sobremi p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .contenedor-sobremi p span{
+    color: white;
+    font-weight: bold;
+}
+.sobremi .infopersonal h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.sobremi .infopersonal ul{
+    list-style: none;
+}
+.sobremi .infopersonal ul li{
+    margin: 12px 0;
+}
+.sobremi .infopersonal ul li strong{
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.sobremi button:hover{
+    background-color: #1CB698;
+}
+.habilidades{
+    background-color: #1e2326;
+    color: white;
+    padding: 50px 20px;
+}
+.habilidades .contenido-habilidades{
+    max-width: 1100px;
+    margin: auto;
+}
+.habilidades .contenido-habilidades h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.habilidades .contenido-habilidades ul{
+    list-style: none;
+}
+.habilidades .contenido-habilidades ul li{
+    margin: 12px 0;
+}
+.experiencia{
+    background-color: #1e2326;
+    color: white;
+    padding: 50px 20px;
+}
+.experiencia .contenido-experiencia{
+    max-width: 1100px;
+    margin: auto;
+}
+.experiencia .contenido-experiencia h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.experiencia .contenido-experiencia ul{
+    list-style: none;
+}
+.experiencia .contenido-experiencia ul li{
+    margin: 12px 0;
+}
+.curriculum{
+    background-color: #1e2326;
+    color: white;
+    padding: 50px 20px;
+}
+.curriculum .contenido-curriculum{
+    max-width: 1100px;
+    margin: auto;
+}
+.curriculum .contenido-curriculum h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.curriculum .formato h3{
+    font-size: 24px;
+    padding: 5px 0;
+    font-family: 'Righteous';
+}
+.curriculum .item{
+    padding: 0 20px;
+}
+.curriculum .item h4{
+    display: block;
+    margin-bottom: 10px;
+}
+.curriculum .item .lugar{
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.curriculum .item .fecha{
+    display: block;
+    margin-bottom: 10px;
+}
+.curriculum .item p{
+    line-height: 24px;
+}
+.footer{
+    background-color: #1e2326;
+    color: white;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.footer .redes{
+    margin-bottom: 20px;
+}
+.footer .redes a{
+    color: whitesmoke;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #1e2326;
+        width: 180px;
+    }
+    nav.responsive a{
+        display: block !important;
+        border-bottom: 1px solid white;
+        padding: 10px 0;
+    }
+}
+
+
+
+
+
+
+

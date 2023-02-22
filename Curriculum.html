@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyecto Final</title>
+    <link href="Curriculum.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+   <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Facundo</a>
+            </div>
+            <nav id="nav" class="responsive">
+                    <a href="#inicio" class="nav-link" onclick="seleccionar()">Inicio</a>
+                    <a href="#infopersonal" class="nav-link" onclick="seleccionar()">Sobre Mi</a>
+                    <a href="#habilidades" class="nav-link" onclick="seleccionar()">Habilidades</a>
+                    <a href="#experiencia" class="nav-link" onclick="seleccionar()">Experiencia</a>
+                    <a href="#curriculum"  class="nav-link" onclick="seleccionar()">Curriculum Vitae</a>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarMenuYOcultar()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+   </div>
+
+
+    <section class="inicio" id="inicio">
+        <div class="contenedor-inicio">
+            <div class="imagen">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc-nZle5TU8k51df2V-NPakoHK6g-5dcpepw&usqp=CAU" alt="No se ha cargado la foto" class="imagen">
+            </div>
+            <h1>FACUNDO MEDINA</h1>
+            <h2>Desarrollador Web Full Stack</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sobremi" id="infopersonal">
+        <div class="contenedor-infopersonal">
+            <div class="contenedor-sobremi">
+                <h2 class="h2">Sobre Mi</h2>
+                <p><span>Hola, soy Facundo Medina. Estudio programacion hace 1 año y estoy en busqueda de mi primer trabajo en mundo IT. Me considero una persona proactiva y dispuesta siempre a la escucha y ayuda mutua.<br></span></p>
+            </div>   
+            <div class="infopersonal">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li><strong>Fecha de nacimiento:</strong> 10/09/1996</li>
+                    <li><strong>Localidad:</strong> Cordoba, Argentina</li>
+                    <li><strong>Numero de telefono:</strong> +543718699114</li>
+                    <li><strong>Email:</strong> facu_medina96@hotmail.com</li>
+                    <li><strong>Pagina Web:</strong> www.example.com.ar</li>
+                    <li><strong>Cargo:</strong> Freelance</li>
+                </ul>
+            </div> 
+            <button onclick="muestraMensaje()">Descargar CV <i class="fa-solid fa-download"></i></button>
+        </div>
+    </section>
+
+
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-habilidades">
+            <h2>Habilidades</h2>
+            <p>Mis habilidades incorporadas son:</p>
+                <ul>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>NodeJS</li>
+                    <li>ReactJS</li>
+                    <li>Java</li>
+                    <li>Spring Framework</li>
+                    <li>SQL</li>
+                </ul>
+        </div>
+    </section>
+
+
+    <section class="experiencia" id="experiencia">
+        <div class="contenido-experiencia">
+            <h2>Experiencia</h2>
+            <p>Aqui te presento mi experiencia en el mundo de la programacion</p>
+            <ul>
+                <li>Desarrollador Front-End en Mercado Libre (2015-2018)</li>
+                <li>Desarrollador Software en Egg Cooperation (2018-2022)</li>
+                <li>Programador Freelance (2022-Actualidad)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="curriculum" id="curriculum">
+        <div class="contenido-curriculum">
+            <h2>Curriculum Vitae</h2>
+            <div class="formato">
+                <h3>Educacion</h3>
+                <div class="item">
+                    <h4>Ciencias Economicas</h4>
+                    <span class="lugar">Universidad Nacional de Cordoba de Ciencias Economicas</span><br>
+                    <span class="fecha">2015-2019</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, vero. Illo corrupti nulla dolore eaque, reprehenderit vel quibusdam possimus dolores nesciunt dignissimos est et, illum atque consequuntur suscipit eveniet. Est!</p><br>
+                    <h4>Tecnicatura en Programacion</h4>
+                    <span class="lugar">Universidad Tecnologica Nacional</span><br>
+                    <span class="fecha">2020-Actualidad</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aperiam quod ratione quibusdam consequatur exercitationem iure, debitis voluptatum repudiandae aliquid repellendus tenetur sapiente repellat qui accusamus blanditiis pariatur temporibus incidunt?</p><br>
+                </div>
+            </div>
+            <div class="formato">
+                <h3>Experiencia de trabajo</h3>
+                <div class="item">
+                    <span class="lugar">Cajero en cafeteria Il Viale</span><br>
+                    <span class="fecha">(2013-2014)</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium possimus distinctio fugit quisquam reprehenderit mollitia sequi! Nemo dolor assumenda odit. Et suscipit voluptatum amet tenetur dignissimos impedit, doloribus veniam voluptates.</p><br>
+                    <span class="lugar">Desarrollador Front-End en Mercado Libre</span><br>
+                    <span class="fecha">(2015-2018)</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti vel facere voluptatibus quasi sunt eligendi aperiam, culpa vero, illo rem accusamus provident. Quasi ipsam vero officiis tempora, totam magnam aliquid.</p><br>
+                    <span class="lugar">Desarrollador de Software en Egg Cooperation</span><br>
+                    <span class="fecha">(2018-2022)</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex laboriosam excepturi dignissimos provident quidem autem ad quia amet vero placeat. Quam suscipit hic praesentium, pariatur eaque autem officia inventore minus!</p><br>
+                    <span class="lugar">Programador Freelance</span><br>
+                    <span class="fecha">(2022-Actualidad)</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, eos! Molestias voluptas recusandae laboriosam quos eaque, vero facilis necessitatibus et id ab reprehenderit odit aut asperiores ad dolor nihil repellendus?</p><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/7f8f8df647.js" crossorigin="anonymous"></script>
+    <script src="Curriculum.js"></script>
+</body>
+
+</html>
